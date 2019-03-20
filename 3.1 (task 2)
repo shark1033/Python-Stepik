@@ -1,0 +1,8 @@
+def modify_list(l):
+    # put your python code here
+      for i in range(len(l)-1, -1, -1):
+        if l[i]%2==0:
+            l[i]//2
+        else:
+            del l[i]
+      return l
